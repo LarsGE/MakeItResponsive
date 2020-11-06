@@ -2,7 +2,7 @@
     margin: 50px 0 50px 0;
     width: 100%;
     background-color: #eaeaea;
-    height: 800px;
+    height: 100%;
 }
 .boks .profil {
     width: 100%;
@@ -10,7 +10,6 @@
     background-color: #fafafa;
     display: flex;
     align-items: center;
-    position: relative;
 }
 .boks picture {
     float: left;
@@ -26,7 +25,6 @@
   width: 150px;
   height: 150px;
   overflow: hidden;
-  position: absolute;
   margin: 25px;
 }
 
@@ -36,19 +34,38 @@
   object-fit: cover;
 }
 .staffText {
-    width: 70%;
+    width: 60%;
     height: 100%;
 
 }
 
-
 .staffText .name {
-
+    font-weight: 700;
+    margin-bottom: -10px;
 }
 .staffText .manifesto {
-font-size: 14px;
+    font-size: 14px;
 }
 
+.profil:nth-child(even) {
+    background-color: white;
+}
 
+.staff-contact-info {
+    margin-left: 10px;
+}
+
+.info-container:nth-child(2) {
+    margin: 10px 0px;
+}
+
+.name{
+    max-height: 10%;
+}
+
+.manifesto {
+    min-height: 140px;
+    height: 80%;
+}
 
 
