@@ -114,7 +114,8 @@ h2 {
     font-size: 6vw;
 
 }
-h3 {
+
+ {
     font-size: 6vw;
 
 }
@@ -299,8 +300,6 @@ div article img {
     #check:checked ~ label #X{
         display: block;
     }
-
-
 }
 
 @media only screen and (min-width: 1000px) {

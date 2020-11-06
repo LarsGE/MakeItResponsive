@@ -1,0 +1,54 @@
+.boks {
+    margin: 50px 0 50px 0;
+    width: 100%;
+    background-color: #eaeaea;
+    height: 800px;
+}
+.boks .profil {
+    width: 100%;
+    height: 25%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.boks picture {
+    float: left;
+    margin: auto 15px auto 15px;
+    height: 150px;
+    width: 150px;
+    display:block;
+
+}
+
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  margin: 25px;
+}
+
+.image-container img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.staffText {
+    width: 70%;
+    height: 100%;
+
+}
+
+
+.staffText .name {
+
+}
+.staffText .manifesto {
+font-size: 14px;
+}
+
+
+
+
