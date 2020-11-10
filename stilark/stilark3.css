@@ -1,0 +1,151 @@
+
+/* CONTACT US */
+
+.hero .bilde {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+    object-fit: cover;
+    position: relative;
+}
+.hero .content .bannerText h1 {
+    padding: 0 500px;
+    color: #fec502;
+    text-align: center;
+
+}
+
+
+
+
+.main-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100% !important;
+    padding-bottom: 200px;
+}
+
+.wrapper-contact {
+    width: 100% !important;
+}
+
+.image-container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.image-container img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+
+}
+
+.contact-info-container {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.phone-info-container i {
+    font-size: 60px;
+    transform: scaleX(-1);
+    color: #0e0e0f;
+}
+.phone-info-container p {
+    color: #0e0e0f;
+}
+.phone-info-container span b{
+    color: #0e0e0f;
+}
+
+.contact-info-container {
+    color: #0e0e0f;
+}
+
+.phone-info,
+.email-info {
+    width: 400px;
+    height: 400px;
+    background: #fafafa;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.phone-info { margin-right: 2vw; }
+.email-info { margin-left: 2vw; }
+
+
+.phone-info-container,
+.email-info-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.email-info-container i {
+    font-size: 60px;
+    transform: scaleX(-1);
+    color: #0c0c0c;
+}
+
+.phone-info-container span {
+    margin-top: 25px;
+    color: #0c0c0c;
+}
+
+.email-info-container span {
+    margin-top: 25px;
+    color: #0c0c0c;
+}
+@media(max-width:1000px) {
+    .contact-info-container { flex-direction: column; }
+
+    .phone-info { margin-right: 0; }
+    .phone-info { margin-bottom: 50px; }
+
+    .email-info { margin-left: 0; }
+
+    .phone-info,
+    .email-info { box-shadow: 0 0 0; }
+
+    .phone-info-container,
+    .email-info-container { height: 300px; }
+
+    .phone-info-container p,
+    .email-info-container p { margin: -30px 0px; }
+
+    .phone-info-container span b,
+    .email-info-container span b { margin: -30px 0px; }
+    .image-container {
+        height: 160%;
+    }
+}
+
+@media(max-width:500px) {
+    .phone-info,
+    .email-info {
+        width: 100%;
+    }
+}
+
+
+
