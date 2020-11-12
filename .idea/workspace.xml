@@ -53,19 +53,6 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,7 +88,8 @@
       <workItem from="1604415005990" duration="2666000" />
       <workItem from="1604659721163" duration="16845000" />
       <workItem from="1604676780756" duration="228000" />
-      <workItem from="1605008766716" duration="10349000" />
+      <workItem from="1605008766716" duration="10396000" />
+      <workItem from="1605180228698" duration="2020000" />
     </task>
     <servers />
   </component>

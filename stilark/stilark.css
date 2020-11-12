@@ -137,12 +137,12 @@ div article img {
 }
 
 .main h1 {
-    margin: 115px 0 0 0;
+    margin: 75px 0 0 0;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     font-weight: 900;
-    color: #ffd100;
+    color: #161616;
     width: 100%;
     height: 50px;
     line-height: 75px;
@@ -182,6 +182,9 @@ div article img {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #0c0c0c;
+}
+#ABOUTUS{
+    padding-bottom: 30px;
 }
 
 .bottom-text {
@@ -317,9 +320,7 @@ div article img {
     .main p {
         padding: 20px 0px 0px;
     }
-    .schText {
-    line-height: 1.6;
-    }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -353,6 +354,12 @@ div article img {
 
     nav ul li a {
         font-size: 18px;
+    }
+    .schText {
+        margin: -30px 0 -30px -20px;
+    }
+    .main p {
+        padding: 10px 30px;
     }
 }
 
@@ -393,18 +400,21 @@ div article img {
     }
 
     h1 {
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     h2 {
-        font-size: 11vw;
+        font-size: 9vw;
     }
 
     h3 {
-        font-size: 11vw;
+        font-size: 9vw;
     }
     nav img {
         left: 10%;
+    }
+    .bilde {
+        height: 800px;
     }
 }
 @media(max-width:900px){
@@ -412,7 +422,7 @@ div article img {
         color: #fafafa;
         margin: 100px 8%;
         position: absolute;
-        top: 12vw;
+        top: 10vw;
         text-align: left;
     }
 
@@ -430,6 +440,9 @@ div article img {
     nav img {
         left: 8%;
     }
+    .bilde {
+        height: 800px;
+    }
 }
 
 @media(max-width:760px){
@@ -437,7 +450,7 @@ div article img {
         color: #fafafa;
         margin: 100px 10%;
         position: absolute;
-        top: 15vw;
+        top: 10vw;
         text-align: left;
 }
 
@@ -455,18 +468,24 @@ div article img {
     nav img {
         left: 10%;
     }
+    .main h1#CAMPS {
+        margin-bottom: 80px;
+    }
+    .bilde {
+        height: 650px;
+    }
 }
 @media(max-width:600px){
     .bannerText {
         color: #fafafa;
         margin: 100px 7%;
         position: absolute;
-        top: 22vw;
+        top: 8vw;
         text-align: left;
     }
 
     h1 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     h2 {
@@ -479,38 +498,47 @@ div article img {
     nav img {
         left: 7%;
     }
-    .main h1 {
-        line-height: 75px;
+    .bilde {
+        height: 500px;
     }
+
 }
 @media(max-width:400px){
     .bannerText {
         color: #fafafa;
         margin: 100px 5%;
         position: absolute;
-        top: 30vw;
+        top: 5vw;
         text-align: left;
     }
 
     h1 {
         font-size: 6vw;
-        line-height: 8vw;
+        line-height: 12vw;
     }
+    .main h1 {
+        line-height: 60px;
+        font-size: 50px;
+    }
+
+
 
     h2 {
         font-size: 13vw;
-        line-height: 16vw;
+        line-height: 20vw;
 
     }
 
     h3 {
         font-size: 13vw;
-        line-height: 16vw;
+        line-height: 20vw;
     }
     nav img {
         left: 5%;
     }
-
+    .bilde {
+        height: 400px;
+    }
 }
 
 /* CHANGING WORDS */
